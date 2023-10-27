@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>como usar o jquery</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div><h1>Lista de nomes</h1></div>
+    <div>
+        <ul style="font-size: 35px;">
+            <li>Lucas</li>
+            <li>Jhonatan</li>
+            <li>Mary</li>
+            <li>Angelina</li>
+            <li>Oliver</li>
+            <li>Alex</li>
+        </ul>
+    </div>
+    <div> 
+        <button id="btn">Click aqui</button>
+    </div>
+    <script>
+        //$('li').remove()//remove li
+        //$('h1').append("de pessoas")//inseri informações
+     /*  $('#bnt').on("click", botao)//ao clicar no botão sumira a lista de nomes
+        function botao(){
+            $('h1').remove()
+        }*/
+        $('#bnt').on("click", botao)//ao clicar a lista fica azul
+        function botao(){
+            $('l1').css({'color':'blue'})
+        }
+    </script>
+</body>
+</html>
